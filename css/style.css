@@ -1,0 +1,208 @@
+﻿@import "https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700";
+
+body {
+    color: #4c5462;
+    font-family: "Raleway", sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 14px;
+}
+
+@media (min-width:1200px) {
+    .container {
+        width: 1200px
+    }
+}
+
+.img {
+    max-width: 100%;
+}
+
+a:focus,
+.btn:focus {
+    text-decoration: none;
+    outline: none;
+    box-shadow: none;
+}
+
+a:focus,
+a:hover,
+a:active {
+    color: #4c5462;
+    text-decoration: none;
+}
+
+a,
+button {
+    outline: medium none;
+    color: #4c5462;
+    text-decoration: none;
+    display: inline-block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Raleway", sans-serif;
+    color: #4c5462;
+    margin-top: 0px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+    color: inherit;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 24px;
+    color: #2b323f;
+}
+
+h4 {
+    font-size: 20px;
+    color: #2b323f;
+    font-weight: 600;
+}
+
+h5 {
+    font-size: 18px;
+    color: #2b323f;
+    font-weight: 600;
+}
+
+h6 {
+    font-size: 16px;
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+li {
+    list-style: none
+}
+
+p {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #4c5462;
+    margin-bottom: 15px;
+}
+
+hr {
+    margin: 60px 0;
+    padding: 0px;
+    border-bottom: 1px solid #eceff8;
+    border-top: 0px;
+}
+
+label {
+    color: #626262;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+
+/* =====================================
+1.1. TRANSITION
+===================================== */
+
+
+
+a,
+.btn,
+img {
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+
+
+
+
+/* =====================================
+1.7. SECTION HEADDING STYLE
+===================================== */
+
+.ptb-120 {
+    padding: 120px 0;
+}
+
+/*  */
+.section-heading {
+    margin: 0 auto 80px;
+    width: 60%;
+}
+
+.section-heading h2 {
+    margin-bottom: 25px;
+    padding-bottom: 25px;
+    position: relative;
+    text-transform: uppercase;
+}
+
+
+/* =====================================
+10. SWIPER SLIDER 
+===================================== */
+.swiper-container {
+    width: 100%;
+    padding-bottom: 60px;
+}
+
+.swiper-slide {
+    width: 390px;
+    height: auto;
+    padding: 0 15px;
+}
+.swiper-slide img {
+    box-shadow: 0 10px 30px rgb(0 0 0 / 15%);
+}
+
+/* dots */
+
+.swiper-container-horizontal>.swiper-pagination-bullets,
+.swiper-pagination-custom,
+.swiper-pagination-fraction {
+    bottom: 0;
+}
+
+.swiper-pagination-bullet {
+    background: transparent none repeat scroll 0 0;
+    border: 1px solid #ee0f6f;
+    border-radius: 100%;
+    display: inline-block;
+    height: 12px;
+    opacity: 1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    width: 12px;
+}
+
+.swiper-pagination-bullet-active {
+    background: rgba(0, 0, 0, 0) -webkit-linear-gradient(left, #ee0f6f 0%, #f89482 100%) repeat scroll 0 0;
+    background: rgba(0, 0, 0, 0) linear-gradient(to right, #ee0f6f 0%, #f89482 100%) repeat scroll 0 0;
+    border: medium none;
+    height: 12px;
+    opacity: 1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    width: 12px;
+}
